@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ The contents of this file are subject to the terms of the Common Development and
+  ~ Distribution License (the License). You may not use this file except in compliance with the
+  ~ License.
+  ~
+  ~ You can obtain a copy of the License at legal/CDDLv1.0.txt. See the License for the
+  ~ specific language governing permission and limitations under the License.
+  ~
+  ~ When distributing Covered Software, include this CDDL Header Notice in each file and include
+  ~ the License file at legal/CDDLv1.0.txt. If applicable, add the following below the CDDL
+  ~ Header, with the fields enclosed by brackets [] replaced by your own identifying
+  ~ information: "Portions copyright [year] [name of copyright owner]".
+  ~
+  ~ Copyright 2019 Open Source Solution Technology Corporation
+  ~
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>jp.openam</groupId>
+    <artifactId>openam-build</artifactId>
+    <version>14.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>OpenAM Build</name>
+    <description>Parent POM for building OpenAM and related libraries</description>
+    <licenses>
+        <license>
+            <name>CDDL-1.0</name>
+            <url>http://opensource.org/licenses/CDDL-1.0</url>
+            <comments>Common Development and Distribution License (CDDL) 1.0</comments>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <modules>
+        <module>forgerock-parent</module>
+        <module>forgerock-bom</module>
+        <module>forgerock-parent-lnk/forgerock-build-tools</module>
+        <module>forgerock-parent-lnk/forgerock-i18n-framework</module>
+        <module>forgerock-parent-lnk/forgerock-guice</module>
+        <module>forgerock-parent-lnk/forgerock-guava</module>
+        <module>forgerock-parent-lnk/forgerock-ui</module>
+        <module>forgerock-parent-lnk/forgerock-commons</module>
+        <module>forgerock-parent-lnk/forgerock-persistit</module>
+        <module>forgerock-parent-lnk/forgerock-bloomfilter</module>
+        <module>forgerock-parent-lnk/opendj-sdk</module>
+        <module>forgerock-parent-lnk/opendj-sdk-lnk/opendj-sdk-parent-lnk/opendj</module>
+        <module>forgerock-parent-lnk/openam</module>
+    </modules>
+
+</project>
+

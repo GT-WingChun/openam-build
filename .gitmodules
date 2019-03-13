@@ -1,0 +1,39 @@
+[submodule "forgerock-parent"]
+	path = forgerock-parent
+	url = https://github.com/openam-jp/forgerock-parent.git
+[submodule "forgerock-bom"]
+	path = forgerock-bom
+	url = https://github.com/openam-jp/forgerock-bom.git
+[submodule "forgerock-parent-lnk/forgerock-build-tools"]
+	path = forgerock-parent-lnk/forgerock-build-tools
+	url = https://github.com/openam-jp/forgerock-build-tools.git
+[submodule "forgerock-parent-lnk/forgerock-i18n-framework"]
+	path = forgerock-parent-lnk/forgerock-i18n-framework
+	url = https://github.com/openam-jp/forgerock-i18n-framework.git
+[submodule "forgerock-parent-lnk/forgerock-guice"]
+	path = forgerock-parent-lnk/forgerock-guice
+	url = https://github.com/openam-jp/forgerock-guice.git
+[submodule "forgerock-parent-lnk/forgerock-ui"]
+	path = forgerock-parent-lnk/forgerock-ui
+	url = https://github.com/openam-jp/forgerock-ui.git
+[submodule "forgerock-parent-lnk/forgerock-guava"]
+	path = forgerock-parent-lnk/forgerock-guava
+	url = https://github.com/openam-jp/forgerock-guava.git
+[submodule "forgerock-parent-lnk/forgerock-commons"]
+	path = forgerock-parent-lnk/forgerock-commons
+	url = https://github.com/openam-jp/forgerock-commons.git
+[submodule "forgerock-parent-lnk/forgerock-bloomfilter"]
+	path = forgerock-parent-lnk/forgerock-bloomfilter
+	url = https://github.com/openam-jp/forgerock-bloomfilter.git
+[submodule "forgerock-parent-lnk/forgerock-persistit"]
+	path = forgerock-parent-lnk/forgerock-persistit
+	url = https://github.com/openam-jp/forgerock-persistit.git
+[submodule "forgerock-parent-lnk/opendj-sdk"]
+	path = forgerock-parent-lnk/opendj-sdk
+	url = https://github.com/openam-jp/opendj-sdk.git
+[submodule "forgerock-parent-lnk/opendj-sdk-lnk/opendj-sdk-parent-lnk/opendj"]
+	path = forgerock-parent-lnk/opendj-sdk-lnk/opendj-sdk-parent-lnk/opendj
+	url = https://github.com/openam-jp/opendj.git
+[submodule "forgerock-parent-lnk/openam"]
+	path = forgerock-parent-lnk/openam
+	url = https://github.com/openam-jp/openam.git
